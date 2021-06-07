@@ -1,0 +1,308 @@
+{
+  "HorizonLayout": [
+    {
+      "showMenu": true,
+      "image": "http://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/homelogo.png",
+      "showSearch": true,
+      "showLogo": true,
+      "menuIcon": {
+        "fontFamily": "CupertinoIcons",
+        "name": "ellipsis_vertical"
+      },
+      "layout": "logo"
+    },
+    {
+      "fit": "cover",
+      "layout": "bannerImage",
+      "items": [
+        {
+          "image": "https://i.imgur.com/1JdZyMk.png",
+          "padding": 15,
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw=="
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+          "padding": 15,
+          "image": "https://i.imgur.com/fBe30ff.jpeg"
+        }
+      ],
+      "marginLeft": 0,
+      "autoPlay": false,
+      "marginTop": 0,
+      "design": "default",
+      "marginRight": 0,
+      "radius": 2,
+      "height": 0.26,
+      "marginBottom": 0,
+      "intervalTime": 3,
+      "isSlider": true
+    },
+    {
+      "size": 1.4,
+      "paddingY": 8,
+      "wrap": false,
+      "marginRight": 21,
+      "type": "icon",
+      "hideTitle": false,
+      "line": false,
+      "marginY": 8,
+      "marginLeft": 19,
+      "layout": "category",
+      "paddingX": 4,
+      "marginTop": 10,
+      "marginBottom": 26,
+      "items": [
+        {
+          "showText": true,
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+          "colors": [
+            "#333333"
+          ],
+          "originalColor": true,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/caps.png"
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==",
+          "colors": [
+            "#333333"
+          ],
+          "originalColor": true,
+          "showText": true,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/bags.png"
+        },
+        {
+          "showText": true,
+          "colors": [
+            "#333333"
+          ],
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/racingswimwear.png",
+          "originalColor": true,
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ=="
+        },
+        {
+          "image": "http://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/trainingsweamwear.png",
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==",
+          "colors": [
+            "#333333"
+          ],
+          "showText": true,
+          "originalColor": true
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==",
+          "originalColor": true,
+          "keepDefaultTitle": false,
+          "colors": [
+            "#333333"
+          ],
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/goggle.png",
+          "title": ""
+        }
+      ],
+      "marginX": 4,
+      "radius": 50
+    },
+    {
+      "layout": "twoColumn",
+      "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==",
+      "name": "items on Sals",
+      "isSnapping": false
+    },
+    {
+      "radius": 10,
+      "height": 0.2,
+      "marginBottom": 0,
+      "marginRight": 0,
+      "marginTop": 0,
+      "layout": "bannerImage",
+      "isSlider": true,
+      "design": "default",
+      "fit": "cover",
+      "items": [
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+          "padding": 0,
+          "image": "https://i.imgur.com/s1zlEez.jpeg"
+        }
+      ],
+      "marginLeft": 0,
+      "autoPlay": false,
+      "intervalTime": 3
+    },
+    {
+      "marginY": 8,
+      "itemSize": {
+        "width": 341.31009270730743,
+        "height": 140.2383644969066
+      },
+      "size": 1.4,
+      "marginX": 4,
+      "layout": "category",
+      "type": "image",
+      "paddingY": 8,
+      "marginTop": 10,
+      "paddingX": 4,
+      "marginBottom": 10,
+      "items": [
+        {
+          "showText": false,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/arena.png",
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw"
+        },
+        {
+          "showText": false,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/madwave.png",
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw"
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/cressi.png",
+          "showText": false
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==",
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/maru.png",
+          "showText": false
+        },
+        {
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4",
+          "showText": false,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/speedo.png"
+        },
+        {
+          "showText": false,
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/stretchcordz.png",
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw"
+        },
+        {
+          "showText": false,
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==",
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/turbo.png"
+        },
+        {
+          "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/yingfa.png",
+          "showText": false,
+          "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy"
+        }
+      ],
+      "marginLeft": 11,
+      "marginRight": 10,
+      "radius": 50,
+      "line": false,
+      "wrap": false
+    }
+  ],
+  "Setting": {
+    "MainColor": "#1976D2",
+    "ProductListLayout": "list",
+    "StickyHeader": true,
+    "ProductDetail": "simpleType",
+    "FontFamily": "Poppins"
+  },
+  "TabBar": [
+    {
+      "pos": 100,
+      "layout": "home",
+      "key": "i0jhyzkgxw",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "categoryLayout": "card",
+      "categories": [
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkzNDkxMjMw",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTgxNTQ4NDUyOQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTU4MTM1MDAwMQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTY2ODU3ODQxNw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTg2MDQzNTA1Nw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzODUyMTIwMQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjY3MzAxNTkyMQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1Njc3NDI2OTA0MQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3OTI0ODc1Mw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzM4MjMxMjA0OQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjI2NzUwNQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjY5MzQ4OQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjkyMjg2NQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MzYxMDk5Mw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1OTU2Mzg3NDQxNw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MDA5MDM5MDY0MQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MDA5NTU2Nzk4NQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MTg2NDY3OTUzNw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjM5MjQzMw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjQyNTIwMQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjQ1Nzk2OQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjQ5MDczNw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjUyMzUwNQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEwMjU1NjI3Mw==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MzEyODM0NDY4OQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNDk3OTY1Mg==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNTU2OTQ3Ng==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNTk5NTQ2MA==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MjU5MDIyMDQ4NA==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2MjA4MjUyNzQyOA==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2MjMyOTY5NjQ1Mg==",
+        "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2Mjg5MDI1ODYyOA=="
+      ],
+      "icon": "circle_grid_3x3_fill",
+      "fontFamily": "CupertinoIcons",
+      "layout": "category",
+      "pos": 200,
+      "key": "m64mq52493"
+    },
+    {
+      "layout": "cart",
+      "key": "k3ytqglxok",
+      "icon": "assets/icons/tabs/icon-cart.png",
+      "categoryLayout": "cart",
+      "pos": 300
+    },
+    {
+      "pos": 400,
+      "settings": [
+        "wishlist",
+        "darkTheme",
+        "rating",
+        "privacy",
+        "about"
+      ],
+      "layout": "profile",
+      "icon": "person_solid",
+      "fontFamily": "CupertinoIcons",
+      "key": "ir22c5wduq"
+    }
+  ],
+  "Drawer": {
+    "logo": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/sidemenulogo.png",
+    "items": [
+      {
+        "type": "home",
+        "show": true
+      },
+      {
+        "show": false,
+        "type": "blog"
+      },
+      {
+        "type": "login",
+        "show": true
+      },
+      {
+        "type": "category",
+        "show": true
+      }
+    ]
+  }
+}
