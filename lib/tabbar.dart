@@ -409,7 +409,7 @@ class MainTabsState extends BaseScreen<MainTabs>
           return !item['icon'].contains('/')
               ? Icon(
                   featherIcons[item['icon']],
-                  color: IconTheme.of(ctx).color,
+                  color: Colors.black,
                   size: 22,
                 )
               : FluxImage(

@@ -365,22 +365,22 @@ class _BackdropState extends State<Backdrop>
       ),
       actions: <Widget>[
         if (!Config().isListingType)
-          PopupMenuButton<String>(
-            icon: const Icon(FontAwesomeIcons.sort,
-                color: Colors.white, size: 18),
-            onSelected: (String item) {
-              _selectSort = item;
-              widget.onSort(item);
-            },
-            itemBuilder: (BuildContext context) => <PopupMenuItem<String>>[
-              _buildMenuItem(FontAwesomeIcons.calendarAlt, S.of(context).date,
-                  'date', _selectSort == 'date'),
-              _buildMenuItem(FontAwesomeIcons.star, S.of(context).featured,
-                  'featured', _selectSort == 'featured'),
-              _buildMenuItem(FontAwesomeIcons.percentage, S.of(context).onSale,
-                  'on_sale', _selectSort == 'on_sale'),
-            ],
-          ),
+          // PopupMenuButton<String>(
+          //   icon: const Icon(FontAwesomeIcons.sort,
+          //       color: Colors.white, size: 18),
+          //   onSelected: (String item) {
+          //     _selectSort = item;
+          //     widget.onSort(item);
+          //   },
+            // itemBuilder: (BuildContext context) => <PopupMenuItem<String>>[
+            //   _buildMenuItem(FontAwesomeIcons.calendarAlt, S.of(context).date,
+            //       'date', _selectSort == 'date'),
+            //   _buildMenuItem(FontAwesomeIcons.star, S.of(context).featured,
+            //       'featured', _selectSort == 'featured'),
+            //   _buildMenuItem(FontAwesomeIcons.percentage, S.of(context).onSale,
+            //       'on_sale', _selectSort == 'on_sale'),
+            // ],
+          // ),
         IconButton(
             icon: AnimatedIcon(
               icon: AnimatedIcons.close_menu,

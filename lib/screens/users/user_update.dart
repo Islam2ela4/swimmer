@@ -322,32 +322,36 @@ class _StateUserUpdate extends BaseScreen<UserUpdate> {
   }
 
   Widget buildButtonUpdate() {
-    return TextButton(
-      style: TextButton.styleFrom(
-        primary: Theme.of(context).primaryColor,
-      ),
-      onPressed: updateUserInfo,
-      child: SafeArea(
-        top: false,
-        child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 12),
+    return Container(
+      margin: const EdgeInsets.all(20),
+      child: TextButton(
+        style: TextButton.styleFrom(
+          primary: Theme.of(context).primaryColor,
+          backgroundColor: Theme.of(context).primaryColor,
+        ),
+        onPressed: updateUserInfo,
+        child: SafeArea(
+          top: false,
           child: Container(
-            height: 20,
-            width: 100,
-            child: isLoading
-                ? const SpinKitCircle(
-                    color: Colors.white,
-                    size: 20.0,
-                  )
-                : Center(
-                    child: Text(
-                      S.of(context).update,
-                      style: const TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white),
+            padding: const EdgeInsets.symmetric(vertical: 12),
+            child: Container(
+              height: 20,
+              width: 100,
+              child: isLoading
+                  ? const SpinKitCircle(
+                      color: Colors.white,
+                      size: 20.0,
+                    )
+                  : Center(
+                      child: Text(
+                        S.of(context).update,
+                        style: const TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.white),
+                      ),
                     ),
-                  ),
+            ),
           ),
         ),
       ),

@@ -2,6 +2,7 @@ import 'package:flash/flash.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fstore/models/AppGain/AppGain.dart';
+import 'package:fstore/screens/index.dart';
 import 'package:provider/provider.dart';
 
 import '../../common/config.dart';
@@ -123,9 +124,22 @@ class _MyCartState extends State<MyCart> with SingleTickerProviderStateMixin {
         onPressed: cartModel.calculatingDiscount
             ? null
             : () async {
+          // MainTabControlDelegate.getInstance().tabAnimateTo(1);
           onCheckout(cartModel);
           //here
           await customEvents("Initiate Payment", "Initiate Payment");
+
+            if (Navigator.canPop(context)) {
+              Navigator.pop(context);
+              Navigator.pop(context);
+            }
+            onCheckout(cartModel);
+            //here
+            await customEvents("Initiate Payment", "Initiate Payment");
+
+
+          //Navigator.of(context).pop();
+          // await Navigator.of(context).pushNamedAndRemoveUntil(RouteList.dashboard,ModalRoute.withName('/'));
         },
         isExtended: true,
         backgroundColor: Theme.of(context).primaryColor,
@@ -134,11 +148,11 @@ class _MyCartState extends State<MyCart> with SingleTickerProviderStateMixin {
         icon: const Icon(Icons.payment, size: 20),
         label: cartModel.totalCartQuantity > 0
             ? (isLoading
-                ? Text(S.of(context).loading.toUpperCase())
-                : Text(S.of(context).checkout.toUpperCase()))
+            ? Text(S.of(context).loading.toUpperCase())
+            : Text(S.of(context).checkout.toUpperCase()))
             : Text(
-                S.of(context).startShopping.toUpperCase(),
-              ),
+          S.of(context).startShopping.toUpperCase(),
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       body: CustomScrollView(
