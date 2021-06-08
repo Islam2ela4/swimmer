@@ -256,12 +256,13 @@
         "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2MjMyOTY5NjQ1Mg==",
         "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI2Mjg5MDI1ODYyOA=="
       ],
-      "icon": "circle_grid_3x3_fill",
+      "icon": "assets/icons/tabs/icon-category.png",
       "fontFamily": "CupertinoIcons",
       "layout": "category",
       "pos": 200,
       "key": "m64mq52493"
     },
+   
     {
       "layout": "cart",
       "key": "k3ytqglxok",
@@ -279,7 +280,7 @@
         "about"
       ],
       "layout": "profile",
-      "icon": "person_solid",
+      "icon": "assets/icons/tabs/icon-user.png",
       "fontFamily": "CupertinoIcons",
       "key": "ir22c5wduq"
     }

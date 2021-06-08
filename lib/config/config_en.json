@@ -212,7 +212,7 @@
         },
         {
             "layout": "category",
-            "icon": "circle_grid_3x3_fill",
+            "icon": "assets/icons/tabs/icon-category.png",
             "fontFamily": "CupertinoIcons",
             "pos": 200,
             "categoryLayout": "card",
@@ -263,7 +263,7 @@
         },
         {
             "layout": "profile",
-            "icon": "person_solid",
+            "icon": "assets/icons/tabs/icon-user.png",
             "fontFamily": "CupertinoIcons",
             "pos": 400,
             "settings": [

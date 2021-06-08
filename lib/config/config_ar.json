@@ -1,1 +1,297 @@
-{"HorizonLayout":[{"showMenu":true,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/homelogo.png","showSearch":true,"showLogo":true,"menuIcon":{"fontFamily":"CupertinoIcons","name":"ellipsis_vertical"},"layout":"logo"},{"fit":"cover","layout":"bannerImage","items":[{"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/1JdZyMk.png","padding":15,"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw=="},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==","padding":15,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/fBe30ff.jpeg"}],"marginLeft":0,"autoPlay":false,"marginTop":0,"design":"default","marginRight":0,"radius":2,"height":0.26,"marginBottom":0,"intervalTime":3,"isSlider":true},{"layout":"category","type":"icon","wrap":false,"size":1.4,"radius":50.0,"items":[{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/caps.png","colors":["#333333"],"originalColor":true,"title":"Cressi","keepDefaultTitle":true},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/bags.png","colors":["#333333"],"originalColor":true,"title":"","keepDefaultTitle":false},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/racingswimwear.png","colors":["#333333"],"originalColor":true,"title":"","keepDefaultTitle":false},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ==","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/trainingsweamwear.png","colors":["#333333"],"originalColor":true,"title":"","keepDefaultTitle":false},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==","originalColor":true,"keepDefaultTitle":false,"colors":["#333333"],"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/goggle.png","title":""}],"line":false,"marginLeft":19.0,"marginRight":21.0,"marginTop":10.0,"marginBottom":26.0,"paddingX":4.0,"paddingY":8.0,"marginX":4.0,"marginY":8.0,"hideTitle":false},{"layout":"twoColumn","category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==","name":"items on Sals","isSnapping":false},{"radius":10,"height":0.2,"marginBottom":0,"marginRight":0,"marginTop":0,"layout":"bannerImage","isSlider":true,"design":"default","fit":"cover","items":[{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==","padding":0,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/s1zlEez.jpeg"}],"marginLeft":0,"autoPlay":false,"intervalTime":3},{"marginY":8,"itemSize":{"width":341.31009270730743,"height":140.2383644969066},"size":1.4,"marginX":4,"layout":"category","type":"image","paddingY":8,"marginTop":10,"paddingX":4,"marginBottom":10,"items":[{"showText":false,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/arena.png","category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw"},{"showText":false,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/madwave.png","category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw"},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/cressi.png","showText":false},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/maru.png","showText":false},{"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4","showText":false,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/speedo.png"},{"showText":false,"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/stretchcordz.png","category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw"},{"showText":false,"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==","image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/turbo.png"},{"image":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/yingfa.png","showText":false,"category":"Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy"}],"marginLeft":11,"marginRight":10,"radius":50,"line":false,"wrap":false}],"Setting":{"MainColor":"#1976D2","ProductListLayout":"list","StickyHeader":true,"ProductDetail":"simpleType","FontFamily":"Poppins"},"TabBar":[{"pos":100,"layout":"home","key":"hu1iplgc3r","icon":"assets/icons/tabs/icon-home.png"},{"layout":"category","icon":"circle_grid_3x3_fill","fontFamily":"CupertinoIcons","pos":200,"categoryLayout":"card","categories":["Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkzNDkxMjMw","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTgxNTQ4NDUyOQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTU4MTM1MDAwMQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTY2ODU3ODQxNw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTg2MDQzNTA1Nw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzODUyMTIwMQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjY3MzAxNTkyMQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjY4NzQ5OTM3Nw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1Njc3NDI2OTA0MQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3OTI0ODc1Mw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzM4MjMxMjA0OQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjI2NzUwNQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjY5MzQ4OQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjkyMjg2NQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MzYxMDk5Mw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1OTU2Mzg3NDQxNw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MDA5MDM5MDY0MQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MTg2NDY3OTUzNw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2Mjk2NDI3NTMxMw==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNDk3OTY1Mg==","Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNTU2OTQ3Ng=="]},{"layout":"cart","key":"s89bm47uyz","icon":"assets/icons/tabs/icon-cart.png","categoryLayout":"cart","pos":300},{"layout":"profile","icon":"person_solid","fontFamily":"CupertinoIcons","pos":400,"settings":["wishlist","rating","privacy"]}],"Drawer":{"logo":"https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/sidemenulogo.png","items":[{"type":"home","show":true},{"show":false,"type":"blog"},{"type":"login","show":false},{"type":"category","show":true}]}}
+{
+    "HorizonLayout": [
+        {
+            "showMenu": true,
+            "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/homelogo.png",
+            "showSearch": true,
+            "showLogo": true,
+            "menuIcon": {
+                "fontFamily": "CupertinoIcons",
+                "name": "ellipsis_vertical"
+            },
+            "layout": "logo"
+        },
+        {
+            "fit": "cover",
+            "layout": "bannerImage",
+            "items": [
+                {
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/1JdZyMk.png",
+                    "padding": 15,
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw=="
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+                    "padding": 15,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/fBe30ff.jpeg"
+                }
+            ],
+            "marginLeft": 0,
+            "autoPlay": false,
+            "marginTop": 0,
+            "design": "default",
+            "marginRight": 0,
+            "radius": 2,
+            "height": 0.26,
+            "marginBottom": 0,
+            "intervalTime": 3,
+            "isSlider": true
+        },
+        {
+            "layout": "category",
+            "type": "icon",
+            "wrap": false,
+            "size": 1.4,
+            "radius": 50.0,
+            "items": [
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/caps.png",
+                    "colors": [
+                        "#333333"
+                    ],
+                    "originalColor": true,
+                    "title": "Cressi",
+                    "keepDefaultTitle": true
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/bags.png",
+                    "colors": [
+                        "#333333"
+                    ],
+                    "originalColor": true,
+                    "title": "",
+                    "keepDefaultTitle": false
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/racingswimwear.png",
+                    "colors": [
+                        "#333333"
+                    ],
+                    "originalColor": true,
+                    "title": "",
+                    "keepDefaultTitle": false
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ==",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/trainingsweamwear.png",
+                    "colors": [
+                        "#333333"
+                    ],
+                    "originalColor": true,
+                    "title": "",
+                    "keepDefaultTitle": false
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==",
+                    "originalColor": true,
+                    "keepDefaultTitle": false,
+                    "colors": [
+                        "#333333"
+                    ],
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/categories/goggle.png",
+                    "title": ""
+                }
+            ],
+            "line": false,
+            "marginLeft": 19.0,
+            "marginRight": 21.0,
+            "marginTop": 10.0,
+            "marginBottom": 26.0,
+            "paddingX": 4.0,
+            "paddingY": 8.0,
+            "marginX": 4.0,
+            "marginY": 8.0,
+            "hideTitle": false
+        },
+        {
+            "layout": "twoColumn",
+            "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==",
+            "name": "items on Sals",
+            "isSnapping": false
+        },
+        {
+            "radius": 10,
+            "height": 0.2,
+            "marginBottom": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "layout": "bannerImage",
+            "isSlider": true,
+            "design": "default",
+            "fit": "cover",
+            "items": [
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+                    "padding": 0,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/s1zlEez.jpeg"
+                }
+            ],
+            "marginLeft": 0,
+            "autoPlay": false,
+            "intervalTime": 3
+        },
+        {
+            "marginY": 8,
+            "itemSize": {
+                "width": 341.31009270730743,
+                "height": 140.2383644969066
+            },
+            "size": 1.4,
+            "marginX": 4,
+            "layout": "category",
+            "type": "image",
+            "paddingY": 8,
+            "marginTop": 10,
+            "paddingX": 4,
+            "marginBottom": 10,
+            "items": [
+                {
+                    "showText": false,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/arena.png",
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw"
+                },
+                {
+                    "showText": false,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/madwave.png",
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw"
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/cressi.png",
+                    "showText": false
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/maru.png",
+                    "showText": false
+                },
+                {
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4",
+                    "showText": false,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/speedo.png"
+                },
+                {
+                    "showText": false,
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/stretchcordz.png",
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw"
+                },
+                {
+                    "showText": false,
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==",
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/turbo.png"
+                },
+                {
+                    "image": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/brands/yingfa.png",
+                    "showText": false,
+                    "category": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy"
+                }
+            ],
+            "marginLeft": 11,
+            "marginRight": 10,
+            "radius": 50,
+            "line": false,
+            "wrap": false
+        }
+    ],
+    "Setting": {
+        "MainColor": "#1976D2",
+        "ProductListLayout": "list",
+        "StickyHeader": true,
+        "ProductDetail": "simpleType",
+        "FontFamily": "Poppins"
+    },
+    "TabBar": [
+        {
+            "pos": 100,
+            "layout": "home",
+            "key": "hu1iplgc3r",
+            "icon": "assets/icons/tabs/icon-home.png"
+        },
+        {
+            "layout": "category",
+            "icon": "assets/icons/tabs/icon-category.png",
+            "fontFamily": "CupertinoIcons",
+            "pos": 200,
+            "categoryLayout": "card",
+            "categories": [
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDY4NzUxMzkw",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDUwNTkw",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMDgzMzU4",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMTgxNjYy",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkwMjc5OTY2",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MDkzNDkxMjMw",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0NDgxMTM2Njcw",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTgxNTQ4NDUyOQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMTk0Nzc2ODk0NQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzEwMjAwNTAxNDY0MQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTI4NjE0MzA4OQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTU4MTM1MDAwMQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTY2ODU3ODQxNw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTg2MDQzNTA1Nw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzgzMzA3Mw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzNzg2NTg0MQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NTkzODUyMTIwMQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjM5NjYxNzg0MQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjY3MzAxNTkyMQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NjY4NzQ5OTM3Nw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1Njc3NDI2OTA0MQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3NjI5OTYzMw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzE3OTI0ODc1Mw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1NzM4MjMxMjA0OQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjI2NzUwNQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjY5MzQ4OQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MjkyMjg2NQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1ODE0MzYxMDk5Mw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE1OTU2Mzg3NDQxNw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MDA5MDM5MDY0MQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2MTg2NDY3OTUzNw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2Mjk2NDI3NTMxMw==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzE2NDEyNzY3MDM4NQ==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNDk3OTY1Mg==",
+                "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzOTIyNTU2OTQ3Ng=="
+            ]
+        },
+        {
+            "layout": "cart",
+            "key": "s89bm47uyz",
+            "icon": "assets/icons/tabs/icon-cart.png",
+            "categoryLayout": "cart",
+            "pos": 300
+        },
+        {
+            "layout": "profile",
+            "icon": "assets/icons/tabs/icon-user.png",
+            "fontFamily": "CupertinoIcons",
+            "pos": 400,
+            "settings": [
+                "wishlist",
+                "rating",
+                "privacy"
+            ]
+        }
+    ],
+    "Drawer": {
+        "logo": "https://cdn.appgain.io/6012d8858da0924a9ebb774c/swimmingst/sidemenulogo.png",
+        "items": [
+            {
+                "type": "home",
+                "show": true
+            },
+            {
+                "show": false,
+                "type": "blog"
+            },
+            {
+                "type": "login",
+                "show": false
+            },
+            {
+                "type": "category",
+                "show": true
+            }
+        ]
+    }
+}
