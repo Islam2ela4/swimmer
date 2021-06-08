@@ -59,6 +59,7 @@ android {
 
     defaultConfig {
         applicationId "com.swimmingstore.app"
+        ndk { abiFilters 'x86', 'armeabi-v7a' }
         minSdkVersion 19
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
@@ -87,9 +88,6 @@ android {
     buildTypes {
         release {
 
-            ndk{
-                abiFilters "armeabi-v7a"
-            }
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
