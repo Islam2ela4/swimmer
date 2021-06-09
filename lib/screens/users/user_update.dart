@@ -325,7 +325,7 @@ class _StateUserUpdate extends BaseScreen<UserUpdate> {
     return Container(
       margin: const EdgeInsets.all(20),
       child: TextButton(
-        style: TextButton.styleFrom(
+        style: TextButton.styleFrom(//
           primary: Theme.of(context).primaryColor,
           backgroundColor: Theme.of(context).primaryColor,
         ),
