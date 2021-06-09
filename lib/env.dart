@@ -226,7 +226,7 @@ Map<String, dynamic> environment = {
   "unsupportedLanguages": ["ku"],
   "paymentConfig": {
     "DefaultCountryISOCode": "EG",
-    "DefaultStateISOCode": "CA",
+    "DefaultStateISOCode": "EG-C",
     "EnableShipping": false,
     "EnableAddress": false,
     "EnableCustomerNote": false,
@@ -236,7 +236,7 @@ Map<String, dynamic> environment = {
     "allowSearchingAddress": false,
     "GuestCheckout": true,
     "EnableOnePageCheckout": true,
-    "NativeOnePageCheckout": false,
+    "NativeOnePageCheckout": true,
     "CheckoutPageSlug": {"en": "checkout"},
     "EnableCreditCard": false,
     "UpdateOrderStatus": false,
