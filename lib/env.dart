@@ -1,4 +1,5 @@
 // ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars final
+
 Map<String, dynamic> environment = {
   "appConfig": "lib/config/config_en.json",
   "serverConfig": {
@@ -32,14 +33,14 @@ Map<String, dynamic> environment = {
     "isCaching": false,
     "kIsResizeImage": false,
     "DefaultCurrency": {
-      "symbol": "\$",
+      "symbol": "\LE",
       "decimalDigits": 2,
       "symbolBeforeTheNumber": true,
-      "currency": "USD",
-      "currencyCode": "usd",
+      "currency": "LE",
+      "currencyCode": "LE",
       "smallestUnitRate": 100
     },
-     "Currencies": [
+    "Currencies": [
       {
         "symbol": "LE",
         "decimalDigits": 2,
@@ -137,21 +138,17 @@ Map<String, dynamic> environment = {
     "appID": "8b45b6db-7421-45e1-85aa-75e597f62714"
   },
   "onBoardingData": [
-    {
-      "title": "",
-      "image": "assets/images/fogg-delivery-1.png",
-      "desc": ""
-    },
+    {"title": "", "image": "assets/images/fogg-delivery-1.png", "desc": ""},
     {
       "title": "",
       "image": "assets/images/fogg-uploading-1.png",
       "desc":
-          ""
+          "See all things happening around you just by a click in your phone. Fast, convenient and clean."
     },
     {
-      "title": "",
+      "title": "Let's Get Started",
       "image": "fogg-order-completed.png",
-      "desc": ""
+      "desc": "Waiting no more, let's see what we get!"
     }
   ],
   "adConfig": {
@@ -205,10 +202,10 @@ Map<String, dynamic> environment = {
     ]
   },
   "firebaseDynamicLinkConfig": {
-    "isEnabled": false,
+    "isEnabled": true,
     "uriPrefix": "https://fluxstoreinspireui.page.link",
     "link": "https://mstore.io/",
-    "androidPackageName": "com.inspireui.fluxstore",
+    "androidPackageName": "com.appgain.nabolia",
     "androidAppMinimumVersion": 1,
     "iOSBundleId": "com.inspireui.mstore.flutter",
     "iOSAppMinimumVersion": "1.0.1",
@@ -221,26 +218,33 @@ Map<String, dynamic> environment = {
       "code": "en",
       "text": "English",
       "storeViewCode": ""
+    },
+    {
+      "name": "Arabic",
+      "icon": "assets/images/country/ar.png",
+      "code": "ar",
+      "text": "Arabic",
+      "storeViewCode": "ar"
     }
   ],
   "unsupportedLanguages": ["ku"],
   "paymentConfig": {
-    "DefaultCountryISOCode": "EG",
+    "DefaultCountryISOCode": "EGY",
     "DefaultStateISOCode": "EG-C",
-    "EnableShipping": false,
-    "EnableAddress": false,
-    "EnableCustomerNote": false,
+    "EnableShipping": true,
+    "EnableAddress": true,
+    "EnableCustomerNote": true,
     "EnableAddressLocationNote": false,
     "EnableAlphanumericZipCode": false,
     "EnableReview": false,
-    "allowSearchingAddress": false,
+    "allowSearchingAddress": true,
     "GuestCheckout": true,
     "EnableOnePageCheckout": true,
-    "NativeOnePageCheckout": true,
+    "NativeOnePageCheckout": false,
     "CheckoutPageSlug": {"en": "checkout"},
-    "EnableCreditCard": false,
+    "EnableCreditCard": true,
     "UpdateOrderStatus": false,
-    "ShowOrderNotes": false,
+    "ShowOrderNotes": true,
     "EnableRefundCancel": false
   },
   "payments": {
@@ -252,9 +256,9 @@ Map<String, dynamic> environment = {
   "stripeConfig": {
     "serverEndpoint": "https://stripe-server.vercel.app",
     "publishableKey": "pk_test_MOl5vYzj1GiFnRsqpAIHxZJl",
-    "enabled": false,
+    "enabled": true,
     "paymentMethodId": "stripe",
-    "returnUrl": "fluxstore://inspireui.com",
+    "returnUrl": "nabolia://inspireui.com",
     "enableManualCapture": false
   },
   "paypalConfig": {
@@ -264,37 +268,39 @@ Map<String, dynamic> environment = {
         "ECbFREri7NFj64FI_9WzS6A0Az2DqNLrVokBo0ZBu4enHZKMKOvX45v9Y1NBPKFr6QJv2KaSp5vk5A1G",
     "production": false,
     "paymentMethodId": "paypal",
-    "enabled": false
+    "enabled": true
   },
   "razorpayConfig": {
     "keyId": "rzp_test_SDo2WKBNQXDk5Y",
     "keySecret": "RrgfT3oxbJdaeHSzvuzaJRZf",
     "paymentMethodId": "razorpay",
-    "enabled": false
+    "enabled": true
   },
   "tapConfig": {
     "SecretKey": "sk_test_XKokBfNWv6FIYuTMg5sLPjhJ",
     "paymentMethodId": "tap",
-    "enabled": false
+    "enabled": true
   },
   "mercadoPagoConfig": {
     "accessToken":
         "TEST-5726912977510261-102413-65873095dc5b0a877969b7f6ffcceee4-613803978",
     "production": false,
     "paymentMethodId": "woo-mercado-pago-basic",
-    "enabled": false
+    "enabled": true
   },
-  "defaultCountryShipping": [],
+  "defaultCountryShipping": [
+    {"name": "Egypt", "iosCode": "EG", "icon": "EG"}
+  ],
   "afterShip": {
     "api": "e2e9bae8-ee39-46a9-a084-781d0139274f",
     "tracking_url": "https://fluxstore.aftership.com"
   },
   "productDetail": {
-    "height": 0.4,
+    "height": 0.41236891984105417,
     "marginTop": 0.0,
     "safeArea": false,
     "showVideo": false,
-    "showBrand": true,
+    "showBrand": false,
     "showThumbnailAtLeast": 1,
     "layout": "simpleType",
     "borderRadius": 3.0,
@@ -303,7 +309,7 @@ Map<String, dynamic> environment = {
     "showSku": true,
     "showStockQuantity": true,
     "showProductCategories": true,
-    "showProductTags": true,
+    "showProductTags": false,
     "hideInvalidAttributes": false
   },
   "productVariantLayout": {
@@ -349,39 +355,35 @@ Map<String, dynamic> environment = {
     "showOnScreens": [
       "profile",
       "home",
-      "home-search",
-      "update-user",
-      "language",
-      "dynamic",
-      "story",
-      "postScreen",
-      "static",
-      "html",
+      "wishlist",
+      "checkout",
+      "orders",
+      "order-detail",
+      "notify",
+      "category",
+      "category-search",
+      "search",
       "page",
       "cart",
-      "search",
-      "category-search",
-      "category",
-      "notify",
-      "order-detail",
-      "orders",
-      "checkout",
-      "wishlist",
+      "html",
       "product",
       "products",
       "detail-blog",
       "blogs",
       "blog",
-      "currencies"
+      "currencies",
+      "language",
+      "update-user",
+      "home-search"
     ],
     "hideOnScreens": []
   },
   "smartChat": [
-    {"app": "https://wa.me/00201224054571", "iconData": "whatsapp"},
-    {"app": "tel:00201224054571", "iconData": "phone"}
+    {"app": "https://wa.me/00201501081030", "iconData": "whatsapp"},
+    {"app": "tel:00201501081030", "iconData": "phone"}
   ],
-  "adminEmail": "apps@appgain.io",
-  "adminName": "Swimstore",
+  "adminEmail": "ahmed.hassan@nabolia.net",
+  "adminName": "Ahmed",
   "vendorConfig": {
     "VendorRegister": true,
     "DisableVendorShipping": false,
@@ -390,13 +392,13 @@ Map<String, dynamic> environment = {
     "dokan": "my-account?vendor_admin=true",
     "wcfm": "store-manager?vendor_admin=true"
   },
-  "loadingIcon": {"type": "rotatingCircle", "size": 30.0},
+  "loadingIcon": {"type": "fadingCircle", "size": 55.80993363993071},
   "productCard": {
     "hidePrice": false,
     "hideStore": true,
-    "hideTitle": false,
+    "hideTitle": true,
     "borderRadius": 3.0,
-    "boxFit": "cover",
+    "boxFit": "fill",
     "boxShadow": {"x": 0.0, "y": 0.0, "blurRadius": 0.0}
   }
 };

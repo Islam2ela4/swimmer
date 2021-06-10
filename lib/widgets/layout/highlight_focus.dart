@@ -72,17 +72,17 @@ class _HighlightFocusState extends State<HighlightFocus> {
           isFocused = newValue;
         });
       },
-      onKey: (node, event) {
-        if (event is RawKeyDownEvent &&
-            (event.logicalKey == LogicalKeyboardKey.space ||
-                event.logicalKey == LogicalKeyboardKey.enter ||
-                event.logicalKey == LogicalKeyboardKey.numpadEnter)) {
-          widget.onPressed();
-          return true;
-        } else {
-          return false;
-        }
-      },
+      // onKey: (node, event) {
+      //   if (event is RawKeyDownEvent &&
+      //       (event.logicalKey == LogicalKeyboardKey.space ||
+      //           event.logicalKey == LogicalKeyboardKey.enter ||
+      //           event.logicalKey == LogicalKeyboardKey.numpadEnter)) {
+      //     widget.onPressed();
+      //     return true;
+      //   } else {
+      //     return false;
+      //   }
+      // },
       child: Container(
         foregroundDecoration: isFocused ? _highlightedDecoration : null,
         child: widget.child,

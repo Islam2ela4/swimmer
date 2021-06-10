@@ -206,7 +206,8 @@ class _AppInitState extends BaseScreen<AppInit> {
     if (splashScreenType == 'rive') {
       const animationName = kAnimationName;
       return RiveSplashScreen(
-        onSuccess: checkToShowNextScreen,
+        //onSuccess: checkToShowNextScreen,
+        onSuccess: () => Navigator.pushNamed(context, RouteList.dashboard),
         asset: splashScreenData,
         animationName: animationName,
       );
@@ -217,7 +218,8 @@ class _AppInitState extends BaseScreen<AppInit> {
         name: splashScreenData,
         startAnimation: 'fluxstore',
         backgroundColor: Colors.white,
-        next: checkToShowNextScreen,
+        //next: checkToShowNextScreen,
+        next: () => Navigator.pushNamed(context, RouteList.dashboard),
         until: () => Future.delayed(const Duration(seconds: 2)),
       );
     }
@@ -226,7 +228,8 @@ class _AppInitState extends BaseScreen<AppInit> {
       debugPrint('[FLARESCREEN] Animated');
       return AnimatedSplash(
         imagePath: splashScreenData,
-        next: checkToShowNextScreen,
+        //next: checkToShowNextScreen,
+        next: () => Navigator.pushNamed(context, RouteList.dashboard),
         duration: 2500,
         type: AnimatedSplashType.StaticDuration,
         isPushNext: true,
@@ -238,14 +241,16 @@ class _AppInitState extends BaseScreen<AppInit> {
         backGroundColor: Colors.white,
         animationEffect: 'zoom-in',
         logoSize: 50,
-        next: checkToShowNextScreen,
+        //next: checkToShowNextScreen,
+        next: () => Navigator.pushNamed(context, RouteList.dashboard),
         duration: 2500,
       );
     }
     if (splashScreenType == 'static') {
       return StaticSplashScreen(
         imagePath: splashScreenData,
-        onNextScreen: checkToShowNextScreen,
+        //onNextScreen: checkToShowNextScreen,
+        onNextScreen: () => Navigator.pushNamed(context, RouteList.dashboard),
       );
     }
     return const SizedBox();
