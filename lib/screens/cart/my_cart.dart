@@ -124,22 +124,28 @@ class _MyCartState extends State<MyCart> with SingleTickerProviderStateMixin {
         onPressed: cartModel.calculatingDiscount
             ? null
             : () async {
-          // MainTabControlDelegate.getInstance().tabAnimateTo(1);
-          onCheckout(cartModel);
-          //here
-          await customEvents("Initiate Payment", "Initiate Payment");
+          // // MainTabControlDelegate.getInstance().tabAnimateTo(1);
+          // onCheckout(cartModel);
+          // //here
+          // await customEvents("Initiate Payment", "Initiate Payment");
+          //
+          //   if (Navigator.canPop(context)) {
+          //     Navigator.pop(context);
+          //     Navigator.pop(context);
+          //   }
+          //   onCheckout(cartModel);
+          //   //here
+          //   await customEvents("Initiate Payment", "Initiate Payment");
 
-            if (Navigator.canPop(context)) {
-              Navigator.pop(context);
-              Navigator.pop(context);
-            }
+          if(Navigator.canPop(context) && cartModel.totalCartQuantity == 0){
+            Navigator.of(context).popUntil(ModalRoute.withName(RouteList.dashboard));
+          }
+          else if(kAdvanceConfig['AlwaysShowTabBar'] ?? false ) {
+            MainTabControlDelegate.getInstance().changeTab('cart');
+            // return;
+          }else{
             onCheckout(cartModel);
-            //here
-            await customEvents("Initiate Payment", "Initiate Payment");
-
-
-          //Navigator.of(context).pop();
-          // await Navigator.of(context).pushNamedAndRemoveUntil(RouteList.dashboard,ModalRoute.withName('/'));
+          }
         },
         isExtended: true,
         backgroundColor: Theme.of(context).primaryColor,
