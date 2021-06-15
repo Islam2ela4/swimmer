@@ -9,9 +9,9 @@ class DefaultConfig {
   static Map serverConfig = {};
   static String appConfig = '';
   static bool defaultDarkTheme = false;
-  static String countryCodeDefault = 'VN';
-  static String dialCodeDefault = '+84';
-  static String nameDefault = 'Vietnam';
+  static String countryCodeDefault = 'EGY';
+  static String dialCodeDefault = '+20';
+  static String nameDefault = 'Egypt';
   static Map advanceConfig = {};
   static Map storeIdentifier = {};
   static Map defaultDrawer = {};

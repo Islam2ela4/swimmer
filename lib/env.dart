@@ -379,8 +379,8 @@ Map<String, dynamic> environment = {
     "hideOnScreens": []
   },
   "smartChat": [
-    {"app": "https://wa.me/00201501081030", "iconData": "whatsapp"},
-    {"app": "tel:00201501081030", "iconData": "phone"}
+    {"app": "https://wa.me/+201501081030", "iconData": "whatsapp"},
+    {"app": "tel:+201501081030", "iconData": "phone"}
   ],
   "adminEmail": "ahmed.hassan@nabolia.net",
   "adminName": "Ahmed",
