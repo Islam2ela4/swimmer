@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 import '../../common/constants.dart';
 import '../../common/tools.dart';
@@ -84,20 +85,18 @@ class Logo extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
-                              if (config['showLogo'] ?? false)
-                                Center(child: renderLogo()),
-                              if ((config['showLogo'] ?? true) &&
-                                  config['name'] != null)
-                                const SizedBox(
-                                  width: 5,
+                              Image.asset(
+                                'assets/images/logo.png',
+                                scale: 12,
+                              ),
+                              const SizedBox(width: 10,),
+                              const Text(
+                                'SWIMMING STORE',
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Color.fromARGB(255, 0, 100, 139),
                                 ),
-                              if (config['name'] != null)
-                                Text(
-                                  config['name'],
-                                  style: const TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                )
+                              ),
                             ],
                           ),
                         ),

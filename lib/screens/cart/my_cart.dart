@@ -146,6 +146,7 @@ class _MyCartState extends State<MyCart> with SingleTickerProviderStateMixin {
           }else{
             onCheckout(cartModel);
           }
+          await customEvents("Initiate Payment", "Initiate Payment");
         },
         isExtended: true,
         backgroundColor: Theme.of(context).primaryColor,

@@ -239,7 +239,7 @@ class ProductCard extends StatelessWidget {
           borderRadius:
               BorderRadius.circular((kProductCard['borderRadius'] ?? 3) * 0.7),
           child: Container(
-            constraints: BoxConstraints(maxHeight: productImage),
+            height: 200,
             child: Transform.translate(
               offset: Offset(18 * gauss, 0.0),
               child: _buildImageFeature(
@@ -307,7 +307,7 @@ class ProductCard extends StatelessWidget {
         const SizedBox(height: 10),
         _productTitle,
         if (!(kProductCard['hideStore'] ?? false)) _soldByStore,
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         if (!(kProductCard['hidePrice'] ?? false)) _productPricing,
         const SizedBox(height: 2),
         _productStockRating,
@@ -320,6 +320,7 @@ class ProductCard extends StatelessWidget {
       child: Stack(
         children: <Widget>[
           Container(
+            height: 300,
             constraints: BoxConstraints(maxWidth: maxWidth ?? width),
             width: width - 6,
             decoration: BoxDecoration(
@@ -342,7 +343,8 @@ class ProductCard extends StatelessWidget {
                 color: Theme.of(context).cardColor,
                 padding: const EdgeInsets.all(6.0),
                 child: Column(
-                  mainAxisSize: MainAxisSize.min,
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   // mainAxisSize: MainAxisSize.min,
                   children: <Widget>[

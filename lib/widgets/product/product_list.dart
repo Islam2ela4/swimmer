@@ -126,7 +126,7 @@ class _ProductListState extends State<ProductList> {
     }
     childAspectRatio = (isTablet ? 0.94 : 1) *
         widthContent /
-        (widthContent * (widget.ratioProductImage ?? 1.2) + 125);
+        (widthContent * (widget.ratioProductImage ?? 1.2) + 60);
 
     final hasNoProduct = widget.products == null || widget.products.isEmpty;
 

@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:fstore/models/cart/cart_base.dart';
 import 'package:fstore/models/cart/cart_model.dart';
+import 'package:fstore/models/cart/cart_model_shopify.dart';
+import 'package:fstore/models/cart/mixin/cart_mixin.dart';
+import 'package:fstore/models/product_model.dart';
 import 'package:provider/provider.dart';
 
 import '../../common/config.dart';
@@ -105,8 +108,10 @@ class PaymentWebviewState extends BaseScreen<PaymentWebview> {
               widget.onFinish(null);
 
               Navigator.of(context).pop();
+              var pv = Provider.of<CartModel>(context, listen: false);
+              pv.clearCart();
+              pv.setRewardTotal(0.0);
 
-              Provider.of<CartModel>(context, listen: false).clearCart();
 
               if (widget.onClose != null) {
                 widget.onClose();

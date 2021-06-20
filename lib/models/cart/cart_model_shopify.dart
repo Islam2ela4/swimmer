@@ -131,6 +131,9 @@ class CartModelShopify
     isSaveLocal = true,
     Map<String, dynamic> options,
   }) {
+    if(productsInCart.isEmpty){
+      setRewardTotal(0.0);
+    }
     if (isSaveLocal) {
       saveCartToLocal(
         product: product,
@@ -209,6 +212,7 @@ class CartModelShopify
   void clearCart() {
     clearCartLocal();
     productsInCart.clear();
+    setRewardTotal(0.0);
     item.clear();
     productVariationInCart.clear();
     productSkuInCart.clear();

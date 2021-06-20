@@ -40,15 +40,15 @@ class CategoryItem extends StatelessWidget {
       child: GestureDetector(
         onTap: () => ProductModel.showList(config: config, context: context),
         child: Container(
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: HexColor(
-                '5F' + kNameToHex['grey'],
-              ),
-              width: 0.5,
-            ),
-            borderRadius: const BorderRadius.all(Radius.circular(5.0)),
-          ),
+          // decoration: BoxDecoration(
+          //   border: Border.all(
+          //     color: HexColor(
+          //       '5F' + kNameToHex['grey'],
+          //     ),
+          //     width: 0.5,
+          //   ),
+          //   borderRadius: const BorderRadius.all(Radius.circular(5.0)),
+          // ),
           width: itemWidth,
           height: height ?? 140.0,
           margin: const EdgeInsets.only(left: 10),
